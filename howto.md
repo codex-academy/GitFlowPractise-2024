@@ -15,9 +15,9 @@ Each member should:
 
 ### The repo owner:
 
-Create a `develop` branch from the `master` and push it remotely.
+Create a `develop` branch from the `main` and push it remotely.
 
-```
+```sh
 git branch develop
 git push origin develop
 ```
@@ -30,16 +30,16 @@ Be sure you can check out the `develop` branch locally using `git checkout devel
 
 To create a feature branch do this:
 
-```
+```sh
 git branch the_feature
 git checkout the_feature
 ```
 
-Do your work on the featire branch.
+Do your work on the feature branch.
 
 Once done add & commit your changes onto the feature branch and then push it to the central repo.
 
-```
+```sh
 git push origin the_feature
 ```
 
@@ -47,13 +47,13 @@ Now issue a pull request to your team members using @their usernames to merge in
 
 Once done delete the feature branch locally:
 
-```
+```sh
 git branch -d the_feature
 ```
 
 Once the merge is done using the pull request - update your local `develop` branch using a `pull`.
 
-```
+```sh
 git pull origin develop
 ```
 
