@@ -21,11 +21,11 @@ Get started by doing a `git clone` on this repo.
 ## Feature list: part 1
 
 <!-- Questions to do -->
-Ngomso - file 1 & 6
-Londeka - file 2 & 7
-Mthunzi - file 3 & 8
-Yamisa - file 4 & 9
-Mandisa - file 5 & 10
+* Ngomso - file 1 & 6
+* Londeka - file 2 & 7
+* Mthunzi - file 3 & 8
+* Yamisa - file 4 & 9
+* Mandisa - file 5 & 10
 
 1. Add an answer to the question in `file1.md`.
 2. Add an answer to the question in `file2.md`.
